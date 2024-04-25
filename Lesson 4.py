@@ -117,7 +117,7 @@ while(n>0):
 print(i)'''
 
 #Q12.Find first and last digits of a number.
-n=int(input("Enter an Integer: "))
+'''n=int(input("Enter an Integer: "))
 k=n
 digit=[]
 i=0
@@ -128,9 +128,35 @@ while(n>0):
 print("Length of",k,"=",len(digit))
 print(digit)
 print("First digit of",k,"=",digit[-1])
-print("Last digit of",k,"=",digit[0])
+print("Last digit of",k,"=",digit[0])'''
 
-    
+#Q13.Find sum of first and last digit of a number.
+'''n=int(input("Enter an Integer: "))
+k=n
+digit=[]
+i=0
+while(n>0):
+    r=n%10
+    n=n//10
+    digit.append(r)
+print("The sum of first and last digit of",k,"=",digit[0]+digit[-1])'''
+
+#Q14.Swap first and last digits of a number.
+n=int(input("Enter an Integer: "))
+k=n
+digit=[]
+i=0
+while(n>0):
+    r=n%10
+    n=n//10
+    digit.append(r)
+    digit[0]=digit[0]
+    digit[-1]=digit[-1]
+first=digit[0]
+last=digit[-1]
+middle=digit[1:-1]
+swap=first+
+print("After swapping the first and last digits of",k,"we get",last+middle+first)
 
 
     
