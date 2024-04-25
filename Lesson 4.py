@@ -38,7 +38,9 @@ while(i<=91):
 '''i=2
 while(i<=101):
     print(i,end=" ")
-    i=i+2'''
+    i=i+2
+for i in range(2,101,2):
+    print(i,end=" ")'''
 
 #Q6.Print all odd numbers between 1 to 100.
 #FOR
